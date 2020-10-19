@@ -6,6 +6,7 @@ import java.util.UUID;
 
 public class PlayerCache extends YamlSectionConfig {
 
+    // Player UUID
     private final UUID uuid;
 
     protected PlayerCache(UUID uuid) {
